@@ -35,6 +35,8 @@ sudo apt-get install -y --no-install-recommends \
 
 # patch
 pushd builder
+git reset --hard HEAD
+git clean -fd
 for i in ../targets/${TARGET}/*; do
     if [[ $i == *.patch ]]; then
         patch -Np1 -i $i
@@ -43,23 +45,23 @@ done
 popd
 
 # crosstool-ng
-if [ ! -e /usr/bin/ct-ng ]; then
-    pushd builder
-    ./bootstrap
-    ./configure --prefix=/usr
-    make -j`nproc`
-    sudo make install
-    popd
-fi
-
-# build
 sudo mkdir -p /opt
 sudo chmod 0777 /opt
+sudo rm -rf /opt/ct-ng
+pushd builder
+./bootstrap
+./configure --prefix=/opt/ct-ng
+make -j`nproc`
+sudo make install
+popd
+
+# build
+rm -rf build
 mkdir -p build
 cp targets/${TARGET}/config build/.config
 pushd build
-ct-ng olddefconfig
-ct-ng build
+/opt/ct-ng/bin/ct-ng olddefconfig
+/opt/ct-ng/bin/ct-ng build
 popd
 
 # tarball
