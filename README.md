@@ -6,30 +6,30 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 
 | Target                        | Kernel  | Binutils | GCC    | Glibc |
 |-------------------------------|---------|----------|--------|-------|
-| aarch64-unknown-linux-gnu     | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| arm-unknown-linux-gnueabi     | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| arm-unknown-linux-gnueabihf   | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| armv7-unknown-linux-gnueabi   | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| armv7-unknown-linux-gnueabihf | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| i586-unknown-linux-gnu        | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| i686-unknown-linux-gnu        | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| loongarch64-unknown-linux-gnu | 5.19.16 | 2.44     | 15.1.0 | 2.41  |
-| m68k-unknown-linux-gnu        | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| microblazeel-xilinx-linux-gnu | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| microblaze-xilinx-linux-gnu   | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mipsel-unknown-linux-gnu      | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mipsel-unknown-linux-gnusf    | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mips-unknown-linux-gnu        | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mips-unknown-linux-gnusf      | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mips64el-unknown-linux-gnu    | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| mips64-unknown-linux-gnu      | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| powerpc-unknown-linux-gnu     | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| powerpc64-unknown-linux-gnu   | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| riscv32-unknown-linux-gnu     | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| riscv64-unknown-linux-gnu     | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| s390x-ibm-linux-gnu           | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| sh4-multilib-linux-gnu        | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
-| x86_64-unknown-linux-gnu      | 5.4.293 | 2.44     | 15.1.0 | 2.41  |
+| aarch64-unknown-linux-gnu     | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| arm-unknown-linux-gnueabi     | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| arm-unknown-linux-gnueabihf   | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| armv7-unknown-linux-gnueabi   | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| armv7-unknown-linux-gnueabihf | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| i586-unknown-linux-gnu        | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| i686-unknown-linux-gnu        | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| loongarch64-unknown-linux-gnu | 5.19.16 | 2.45     | 15.1.0 | 2.42  |
+| m68k-unknown-linux-gnu        | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| microblazeel-xilinx-linux-gnu | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| microblaze-xilinx-linux-gnu   | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mipsel-unknown-linux-gnu      | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mipsel-unknown-linux-gnusf    | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mips-unknown-linux-gnu        | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mips-unknown-linux-gnusf      | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mips64el-unknown-linux-gnu    | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| mips64-unknown-linux-gnu      | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| powerpc-unknown-linux-gnu     | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| powerpc64-unknown-linux-gnu   | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| riscv32-unknown-linux-gnu     | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| riscv64-unknown-linux-gnu     | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| s390x-ibm-linux-gnu           | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| sh4-multilib-linux-gnu        | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
+| x86_64-unknown-linux-gnu      | 5.4.293 | 2.45     | 15.1.0 | 2.42  |
 
 ## How to use
 
