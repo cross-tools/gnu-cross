@@ -6,13 +6,13 @@ Subject: [PATCH] powerpc: Add support for little endian.
 ---
  ...owerpc-Add-support-for-little-endian.patch | 46 +++++++++++++++++++
  1 file changed, 46 insertions(+)
- create mode 100644 packages/glibc/2.42/0001-powerpc-Add-support-for-little-endian.patch
+ create mode 100644 packages/glibc/2.43/0001-powerpc-Add-support-for-little-endian.patch
 
-diff --git a/packages/glibc/2.42/0001-powerpc-Add-support-for-little-endian.patch b/packages/glibc/2.42/0001-powerpc-Add-support-for-little-endian.patch
+diff --git a/packages/glibc/2.43/0001-powerpc-Add-support-for-little-endian.patch b/packages/glibc/2.43/0001-powerpc-Add-support-for-little-endian.patch
 new file mode 100644
 index 00000000..327f7c8d
 --- /dev/null
-+++ b/packages/glibc/2.42/0001-powerpc-Add-support-for-little-endian.patch
++++ b/packages/glibc/2.43/0001-powerpc-Add-support-for-little-endian.patch
 @@ -0,0 +1,46 @@
 +From b344ac124d53a6dcf716c63fe777dc8f0c73890b Mon Sep 17 00:00:00 2001
 +From: hev <git@hev.cc>
