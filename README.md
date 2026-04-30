@@ -4,35 +4,35 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 
 ## Supported targets
 
-| Target                        | Kernel  | Binutils | GCC    | Glibc | Mold   |
-|-------------------------------|---------|----------|--------|-------|--------|
-| aarch64-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| arm-unknown-linux-gnueabi     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| arm-unknown-linux-gnueabihf   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| armv7-unknown-linux-gnueabi   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| armv7-unknown-linux-gnueabihf | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| i586-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| i686-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| loongarch64-unknown-linux-gnu | 5.19.16 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| m68k-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| microblazeel-xilinx-linux-gnu | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| microblaze-xilinx-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mipsel-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mipsel-unknown-linux-gnusf    | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mips-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mips-unknown-linux-gnusf      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mips64el-unknown-linux-gnu    | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| mips64-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| or1k-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A    |
-| powerpcle-unknown-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| powerpc-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| powerpc64le-unknown-linux-gnu | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| powerpc64-unknown-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| riscv32-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| riscv64-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| s390x-ibm-linux-gnu           | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| sh4-multilib-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
-| x86_64-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.40.4 |
+| Target                        | Kernel  | Binutils | GCC    | Glibc | Mold |
+|-------------------------------|---------|----------|--------|-------|------|
+| aarch64-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| arm-unknown-linux-gnueabi     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| arm-unknown-linux-gnueabihf   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| armv7-unknown-linux-gnueabi   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| armv7-unknown-linux-gnueabihf | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| i586-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| i686-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| loongarch64-unknown-linux-gnu | 5.19.16 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| m68k-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| microblazeel-xilinx-linux-gnu | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| microblaze-xilinx-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mipsel-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mipsel-unknown-linux-gnusf    | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mips-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mips-unknown-linux-gnusf      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mips64el-unknown-linux-gnu    | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| mips64-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| or1k-unknown-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | N/A  |
+| powerpcle-unknown-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| powerpc-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| powerpc64le-unknown-linux-gnu | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| powerpc64-unknown-linux-gnu   | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| riscv32-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| riscv64-unknown-linux-gnu     | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| s390x-ibm-linux-gnu           | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| sh4-multilib-linux-gnu        | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
+| x86_64-unknown-linux-gnu      | 5.4.296 | 2.46     | 15.2.0 | 2.43  | 2.41 |
 
 ## How to use
 
