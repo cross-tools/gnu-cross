@@ -13,6 +13,7 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 | armv7-unknown-linux-gnueabihf | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | i586-unknown-linux-gnu        | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | i686-unknown-linux-gnu        | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
+| loongarch32-unknown-linux-gnu | 7.0.12  | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | loongarch64-unknown-linux-gnu | 5.19.16 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | m68k-unknown-linux-gnu        | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | microblazeel-xilinx-linux-gnu | 5.4.296 | 2.47     | 16.2.0 | 2.44  | N/A    |

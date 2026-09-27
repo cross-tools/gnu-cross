@@ -21,6 +21,7 @@ jobs:
           - armv7-unknown-linux-gnueabihf
           - i586-unknown-linux-gnu
           - i686-unknown-linux-gnu
+          - loongarch32-unknown-linux-gnu
           - loongarch64-unknown-linux-gnu
           - m68k-unknown-linux-gnu
           - microblazeel-xilinx-linux-gnu
