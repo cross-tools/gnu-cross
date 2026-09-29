@@ -7,6 +7,7 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 | Target                          | Kernel  | Binutils | GCC    | Glibc | Mold   |
 |---------------------------------|---------|----------|--------|-------|--------|
 | aarch64-unknown-linux-gnu       | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
+| alphaev67-unknown-linux-gnu     | 5.4.296 | 2.47     | 16.2.0 | 2.44  | N/A    |
 | arm-unknown-linux-gnueabi       | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | arm-unknown-linux-gnueabihf     | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
 | armv7-unknown-linux-gnueabi     | 5.4.296 | 2.47     | 16.2.0 | 2.44  | 2.42.1 |
