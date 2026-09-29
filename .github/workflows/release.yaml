@@ -22,6 +22,7 @@ jobs:
           - i586-unknown-linux-gnu
           - i686-unknown-linux-gnu
           - loongarch32-unknown-linux-gnu
+          - loongarch32-unknown-linux-gnusf
           - loongarch64-unknown-linux-gnu
           - m68k-unknown-linux-gnu
           - microblazeel-xilinx-linux-gnu
